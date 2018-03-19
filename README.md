@@ -24,6 +24,8 @@ You will need to have available on your system:
 
 - Clone the repo.
 - Run `composer install`.
+- In `vmconfig/config.yml` change `project_ip` to a free local network IP of your choice instead of default `192.168.88.88` (Optional).
 - Run `vagrant up`.
-- Drupal site will be created at (http://drupal-template.local).
+- Drupal site will be created at (http://drupaltemplate.local).
   - Default admin credentials are `admin:admin`.
+  - If you have [Drush launcher](https://github.com/drush-ops/drush-launcher) installed on your host system, you can use the alias `@drupaltemplate.local` to access the site from your host command line.
