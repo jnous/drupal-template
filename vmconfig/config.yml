@@ -172,7 +172,7 @@ installed_extras:
   - adminer
   # - blackfire
   # - drupalconsole
-  - drush
+  # - drush
   # - elasticsearch
   # - java
   - mailhog
@@ -195,7 +195,7 @@ extra_packages:
   - sqlite
 
 # You can configure almost anything else on the server in the rest of this file.
-drush_version: "9.2.1"
+php_xdebug_version: "2.6.0"
 
 extra_security_enabled: false
 
@@ -289,8 +289,8 @@ solr_xmx: "128M"
 selenium_version: 2.53.0
 
 # Docker configuration.
-docker_container_name: drupal-template
-docker_image_name: drupal-template
+docker_container_name: drupaltemplate
+docker_image_name: drupaltemplate
 docker_image_path: ~/Downloads
 
 # Other configuration.
