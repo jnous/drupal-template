@@ -40,11 +40,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "config": {
-        "platform": {
-            "php": "7.2.3"
-        }
-    },
     "autoload": {
         "classmap": [
             "scripts/composer/ScriptHandler.php"
